@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 class PeopleList extends Component {
     static navigationOptions = {
         tabBarIcon: ({tintColor}) => (
-            <Icon name={'user'} size={50} color={'#f08e25'} />
+            <Icon name={'user'} size={50} color={'#D9D9D9'} />
         )
     }
 

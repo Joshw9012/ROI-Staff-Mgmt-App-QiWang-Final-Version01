@@ -121,7 +121,7 @@ class AddPerson extends Component {
                         onChangeText={value => this.formUpdate({ prop: 'notes', value})} 
                     />                        
                     <View style={styles.addButton}> 
-                        <Button color={'white'} style={{backgroundColor: 'grey'}} mode="contained" onPress={this.onAddPress.bind(this)}> 
+                        <Button color={'white'} style={{backgroundColor: '#cb6d4f'}} mode="contained" onPress={this.onAddPress.bind(this)}> 
                             Add 
                         </Button> 
                     </View> 

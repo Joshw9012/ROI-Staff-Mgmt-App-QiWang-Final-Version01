@@ -43,7 +43,7 @@ const CompanyItem = (props) => {
               <Card>
               <Card.Title
                 title={props.companies.company}
-                left={(props) => <Avatar.Icon {...props} color={'white'} style={{backgroundColor: 'grey'}} icon="cog" />}
+                left={(props) => <Avatar.Icon {...props} color={'white'} style={{backgroundColor: '#cb6d4f'}} icon="cog" />}
                 />                  
                 <Card.Content>
                     {props.companies.names.map((name) => {

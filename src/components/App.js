@@ -21,8 +21,8 @@
    render() {
      return (
        <Provider store={store}>
-         <Appbar.Header style={{backgroundColor: '#ccccff'}}>
-           <Appbar.Content color={'blue'} style={{backgroundColor: '#ccccff'}} title="ROI Staff Management" subtitle={'Developed By Qi Wang'} />
+         <Appbar.Header style={{backgroundColor: '#941a1d'}}>
+           <Appbar.Content color={'white'} style={{backgroundColor: '#941a1d'}} title="ROI Staff Management" subtitle={'Developed By Qi Wang'} />
          </Appbar.Header>
          <Navigation />
        </Provider>
@@ -35,6 +35,6 @@
      flex: 1,
      justifyContent: 'center',
      alignItems: 'center',
-     backgroundColor: '#c64c38',
+     backgroundColor: '#262626',
    },
  });

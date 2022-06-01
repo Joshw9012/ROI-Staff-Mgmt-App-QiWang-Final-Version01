@@ -114,12 +114,12 @@ class UpdatePerson extends Component {
                         onChangeText={value => this.formUpdate({ prop: 'notes', value})}
                     />                       
                     <View style={styles.updateButton}>
-                        <Button color={'white'} style={{backgroundColor: 'grey'}} mode="contained" onPress={this.onUpdatePress.bind(this)}>
+                        <Button color={'white'} style={{backgroundColor: '#cb6d4f'}} mode="contained" onPress={this.onUpdatePress.bind(this)}>
                             Update
                         </Button>
                     </View>
                     <View style={styles.updateButton}>
-                        <Button color={'white'} style={{backgroundColor: 'grey'}} mode="contained" onPress={this.onCancelPress.bind(this)}>
+                        <Button color={'white'} style={{backgroundColor: '#cb6d4f'}} mode="contained" onPress={this.onCancelPress.bind(this)}>
                             Cancel
                         </Button>
                     </View>                   
