@@ -22,7 +22,7 @@
      return (
        <Provider store={store}>
          <Appbar.Header style={{backgroundColor: '#ccccff'}}>
-           <Appbar.Content color={'blue'} style={{backgroundColor: '#ccccff'}} title="CRM APP" subtitle={'Developed using React Native'} />
+           <Appbar.Content color={'blue'} style={{backgroundColor: '#ccccff'}} title="ROI Staff Management" subtitle={'Developed By Qi Wang'} />
          </Appbar.Header>
          <Navigation />
        </Provider>
