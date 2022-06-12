@@ -6,7 +6,7 @@ const image = { uri: "https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979
 const App = () => (
   <View style={styles.container}>
     <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-      <Text style={styles.text}>CRM APP</Text>
+      <Text style={styles.text}>HR Management</Text>
 
       <Image source={require('../images/logo_example01.png')}   />
 
